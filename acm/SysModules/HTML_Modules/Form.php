@@ -1,14 +1,18 @@
 <?php
 //no data found View
-function NoData($title, $desc)
+function NoData($title)
 { ?>
-        <div class="col-lg-12 col-md-12 col-sm-12 col-12 mt-4">
+        <div class="col-lg-12 col-md-12 col-sm-12 col-12">
                 <div class="shadow-sm p-1">
-                        <div class="p-1">
-                                <h4 class="bold mt-3"><?php echo $title; ?></h4>
-                                <p>
-                                        <?php echo $desc; ?>
-                                </p>
+                        <div class="flex-s-b">
+                                <div class="item-details p-1">
+                                        <h6 class="bold"><?php echo $title; ?></h6>
+                                        <p>
+                                                <small class="text-gray fs-6">
+                                                        It seems there is no any entry in the database. Try to enter some values or entries first it will be displayed here when minimum one entry is availabled for view.
+                                                </small>
+                                        </p>
+                                </div>
                         </div>
                 </div>
         </div>

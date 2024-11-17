@@ -44,14 +44,3 @@ function GetHours($starttime, $endtime)
 
  return $hours;
 }
-
-//function GetDays from current date
-function DaysBetweenDates($fromdate, $Todaydate)
-{
- $startDate = new DateTime($fromdate);
- $endDate = new DateTime($Todaydate);
-
- $interval = $startDate->diff($endDate);
- $days = $interval->days;
- return $days;
-}

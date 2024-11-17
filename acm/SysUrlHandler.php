@@ -42,29 +42,19 @@ define("LOCAL_HOST", array(
   "192.168.1.7",
   "192.168.203.206",
   "192.168.1.5",
-  "192.168.45.206",
-  "192.168.111.206",
-  "192.168.1.6",
-  "192.168.1.16",
-  "192.168.248.206",
+  "192.168.45.206"
 ));
 
 //filter domain from local or live server
 if (in_array("" . HOST . "", LOCAL_HOST)) {
   define("DOMAIN", $link . HOST . "/kharche");
-
-  define("DB_ENV", "DEV");
 } else {
   define("DOMAIN", $link . HOST);
-
-  define("DB_ENV", "PROD");
 }
-
-define("ROOT", DOMAIN);
 
 //app constant
 define("APP_URL", DOMAIN . "/app");
-define("ADMIN_URL", DOMAIN . "/app");
+define("ADMIN_URL", DOMAIN . "/sys");
 define("WEB_URL", DOMAIN . "/in");
 define("STORAGE_URL", DOMAIN . "/storage");
 define("STORAGE_URL_D", STORAGE_URL . "/default");

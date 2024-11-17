@@ -26,15 +26,15 @@ function SENDMAILS($Subject, $Title, $Sendto, $MAIL_MSG, $die = false)
     $mail->isSMTP();                                               //Send using SMTP
     $mail->Host       = 'smtp.hostinger.com';                     //Set the SMTP server to send through
     $mail->SMTPAuth   = true;                                    //Enable SMTP authentication
-    $mail->Username   = 'no-reply@gauravsinghigc.in';                     //SMTP username
-    $mail->Password   = 'Gsi@9810';                          //SMTP password
+    $mail->Username   = 'kharche@navix.in';                     //SMTP username
+    $mail->Password   = 'Gsi@9810895713#2024';                          //SMTP password
     $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;          //Enable implicit TLS encryption
     $mail->Port       = 465;                                 //TCP port to connect to; use 587 if you have set `SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS`
 
     //Recipients
-    $mail->setFrom("no-reply@gauravsinghigc.in", APP_NAME);
+    $mail->setFrom("kharche@navix.in", APP_NAME);
     $mail->addAddress($Sendto);                                 //Add a recipient
-    $mail->addReplyTo("kharche@gauravsinghigc.in");
+    $mail->addReplyTo("kharche@navix.in");
 
     //Attachments
     //$mail->addAttachment('/var/tmp/file.tar.gz');         //Add attachments

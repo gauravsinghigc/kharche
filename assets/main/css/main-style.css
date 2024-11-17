@@ -1,0 +1,451 @@
+html,
+body,
+section,
+div,
+ul,
+li,
+a {
+ font-family: system-ui !important;
+ line-height: normal !important;
+}
+body {
+ padding-bottom: 5em !important;
+}
+a {
+ color: black;
+}
+label {
+ color: grey !important;
+}
+.sys-app-btn {
+ padding-left: 1em;
+ padding-right: 1em;
+ font-size: 1.2rem;
+}
+.app-mode input {
+ font-size: 1.2em !important;
+ min-width: 320px !important;
+ width: 100% !important;
+}
+.text-right {
+ text-align: right !important;
+}
+.app-logo {
+ width: 12em;
+}
+.notification-box {
+ width: 100%;
+ max-width: 100%;
+ min-width: 100%;
+}
+.app-header-logo {
+ width: 5em !important;
+ margin-top: -0.8em;
+}
+.rounded {
+ border-radius: 50em !important;
+}
+.app-btm-navbar {
+ position: fixed;
+ bottom: 0px;
+ width: 100%;
+ z-index: 9999;
+ padding: 0.1em;
+ margin-bottom: 0.06em;
+ border-radius: 50em !important;
+}
+.app-btm-navbar div.flex-s-b {
+ display: flex;
+ justify-content: space-between;
+}
+.app-btm-navbar div.flex-s-b a {
+ text-align: center;
+ line-height: 0.7em !important;
+ color: white !important;
+ padding: 0.3em 0.6em;
+ width: 25%;
+ border-radius: 50em;
+ margin: 0.05em !important;
+}
+.app-btm-navbar div.flex-s-b a span {
+ font-size: 0.55em;
+}
+.app-btm-navbar div.flex-s-b a i {
+ font-size: 1em;
+}
+.app-btm-navbar div.flex-s-b a:hover,
+.app-btm-navbar div.flex-s-b a.active {
+ background-color: white;
+ color: black !important;
+}
+.text-capitalize {
+ text-transform: uppercase !important;
+ color: black !important;
+}
+.pull-right {
+ float: right !important;
+}
+.app-acc-img {
+ width: 6em !important;
+ height: 6em !important;
+}
+.account-nav {
+ padding-left: 0px !important;
+ list-style-type: none !important;
+ padding-right: 0px !important;
+ margin-top: 1em;
+}
+
+.account-nav li a {
+ padding: 0.3em 1em;
+ line-height: 1.6em !important;
+ box-shadow: 0px 0px 1px grey;
+ display: block;
+ margin-bottom: 0.6em !important;
+ border-radius: 50em;
+ color: rgb(51, 51, 51);
+}
+
+.account-nav li a:hover {
+ background-color: rgba(0, 156, 253, 0.466);
+}
+.account-nav li a i {
+ color: rgb(0, 64, 182);
+ width: 1.8em;
+ font-size: 1em;
+}
+
+.account-nav li a i.fa-angle-right {
+ color: grey;
+ text-align: right;
+ float: right;
+ padding: 0.4em;
+}
+.app-plus-icon {
+ position: fixed;
+ right: 0.4em;
+ background-color: rgb(161, 2, 2);
+ padding: 0.4em 0.8em;
+ color: white !important;
+ font-size: 1em;
+ border-radius: 50em;
+ bottom: 5em;
+}
+.hidden {
+ display: none;
+}
+.app-data-box {
+ position: fixed;
+ bottom: 0em;
+ width: 100%;
+ height: auto;
+ background-color: white;
+ box-shadow: 0px 0px 100000px black;
+ padding: 0.5em;
+ border-top-left-radius: 3em !important;
+ border-top-right-radius: 3em !important;
+ padding-bottom: 1.3em !important;
+ z-index: 9999999;
+ overflow-x: scroll;
+}
+.app-heading {
+ background-image: linear-gradient(45deg, #0035c5, #677eff78);
+ color: white !important;
+}
+.app-heading i {
+ color: white !important;
+}
+
+.data-display {
+ font-size: 0.66em !important;
+ line-height: 0.6em !important;
+}
+.data-display .text-grey {
+ font-size: 0.5em !important;
+ color: grey !important;
+}
+input::placeholder {
+ color: grey !important;
+}
+.data-display-2 {
+ font-size: 0.7em !important;
+ line-height: 0.9rem !important;
+}
+.data-display-2 .text-grey {
+ font-size: 0.55em !important;
+ color: rgb(197, 197, 197) !important;
+}
+.popup-background {
+ position: fixed;
+ width: 100% !important;
+ height: 100% !important;
+ background-color: #00000099;
+ z-index: 1111111111111;
+ top: 0px;
+ left: 0px;
+ display: none;
+}
+
+.action-area {
+ width: 100% !important;
+ background-color: white !important;
+ height: max-content;
+ max-width: 390px;
+ min-width: 245px;
+ margin: 1.4em auto;
+ border-radius: 0.5rem !important;
+ -webkit-border-radius: 0.5rem !important;
+ -moz-border-radius: 0.5rem !important;
+ -ms-border-radius: 0.5rem !important;
+ -o-border-radius: 0.5rem !important;
+ padding: 1rem;
+}
+
+.ref-image {
+ width: 100% !important;
+ text-align: center !important;
+ padding: 1rem;
+}
+
+.ref-image .pop-img {
+ width: 50% !important;
+ font-size: 4em !important;
+}
+
+.activity-action {
+ width: 100% !important;
+ text-align: center;
+ padding: 1rem;
+ display: flex;
+ justify-content: space-around;
+}
+
+.action-title {
+ padding: 0.5rem !important;
+ margin-top: 0px !important;
+ margin-bottom: 0px !important;
+ text-align: center;
+ font-weight: 600;
+ font-size: 1.1em;
+ animation: action-text 1.5s linear infinite;
+ -webkit-animation: action-text 1.5s linear infinite;
+}
+
+@keyframes action-text {
+ 0% {
+  opacity: 0;
+  color: red;
+ }
+ 50% {
+  opacity: 0.7;
+  color: black;
+ }
+ 100% {
+  opacity: 0;
+  color: blue;
+ }
+}
+
+.action-desc {
+ width: 100% !important;
+ text-align: center;
+ font-size: 1rem;
+ padding: 0.5rem !important;
+}
+
+.blink-data {
+ animation: blinker 0.5s linear infinite;
+ -webkit-animation: blinker 0.5s linear infinite;
+}
+
+@keyframes blinker {
+ 50% {
+  opacity: 0;
+ }
+}
+.w-20 {
+ width: 20% !important;
+}
+.filling-list {
+ box-shadow: 0px 0px 1px black;
+ padding: 0.3em;
+ line-height: 0.5em !important;
+ background-color: aliceblue !important;
+}
+.filling-list i {
+ font-size: 1.5em;
+}
+.text-gray {
+ color: grey !important;
+ font-size: 0.6em !important;
+}
+.filling-list h5 {
+ font-size: 1.1em !important;
+}
+.km-driven {
+ font-size: 0.75em !important;
+ padding: 0.2em;
+ margin-top: -4em !important;
+}
+.bg-light {
+ background-color: rgb(231, 231, 231) !important;
+}
+.vehilce-data {
+ box-shadow: 0px 0px 1px rgb(1, 85, 134) !important;
+}
+.plus-button {
+ background-image: linear-gradient(45deg, #2daae5, #2d3fe5) !important;
+ color: white !important;
+ width: 30% !important;
+}
+.plus-button i.fa-plus {
+ font-size: 1.7em !important;
+}
+.plus-button i.fa-plus,
+.plus-button span {
+ color: white !important;
+}
+.entry-button {
+ display: none;
+ position: fixed;
+ width: 100%;
+ padding: 0.8em;
+ bottom: 4em;
+}
+.box-shadow {
+ box-shadow: 0px 0px 1px grey !important;
+}
+.text-gray .text-danger {
+ color: red !important;
+}
+.text-grey {
+ color: grey !important;
+}
+.account-info {
+ font-size: 0.8em !important;
+}
+.app-list-bg {
+ background-color: aliceblue !important;
+}
+.text-danger {
+ color: red !important;
+}
+.txn-list h6 {
+ font-size: 0.8em !important;
+}
+
+@media only screen and (min-width: 700px) {
+ .container {
+  width: 50% !important;
+ }
+ .container {
+  background-color: white !important;
+ }
+
+ .app-btm-navbar div.flex-s-b a span {
+  font-size: 0.7rem;
+ }
+
+ .app-acc-img {
+  width: 6em !important;
+  height: 6em !important;
+ }
+
+ .data-display {
+  font-size: 1em !important;
+  line-height: 1em !important;
+ }
+ .data-display .text-grey {
+  font-size: 0.7em !important;
+  color: grey !important;
+ }
+ input::placeholder {
+  color: grey !important;
+ }
+ .data-display-2 {
+  font-size: 1em !important;
+  line-height: 0.5rem !important;
+ }
+ .data-display-2 .text-grey {
+  font-size: 0.8em !important;
+  color: rgb(197, 197, 197) !important;
+ }
+
+ .filling-list {
+  box-shadow: 0px 0px 1px black;
+  padding: 0.3em;
+  line-height: 0.5em !important;
+  background-color: aliceblue !important;
+ }
+ .filling-list i {
+  font-size: 1.5em;
+ }
+ .text-gray {
+  color: grey !important;
+  font-size: 0.8em !important;
+ }
+ .filling-list h5 {
+  font-size: 1.2em !important;
+ }
+ .km-driven {
+  font-size: 0.8em !important;
+  padding: 0.2em;
+  margin-top: -4em !important;
+ }
+ .bg-light {
+  background-color: rgb(231, 231, 231) !important;
+ }
+ .vehilce-data {
+  box-shadow: 0px 0px 1px rgb(1, 85, 134) !important;
+ }
+ .plus-button {
+  background-image: linear-gradient(45deg, #2daae5, #2d3fe5) !important;
+  color: white !important;
+  width: 30% !important;
+ }
+ .plus-button i.fa-plus {
+  font-size: 1.7em !important;
+ }
+ .plus-button i.fa-plus,
+ .plus-button span {
+  color: white !important;
+ }
+ .entry-button {
+  display: none;
+  position: fixed;
+  width: 100%;
+  padding: 0.8em;
+  bottom: 4em;
+ }
+ .box-shadow {
+  box-shadow: 0px 0px 1px grey !important;
+ }
+ .text-gray .text-danger {
+  color: red !important;
+ }
+ .text-grey {
+  color: grey !important;
+ }
+ .account-info {
+  font-size: 1em !important;
+ }
+ .app-list-bg {
+  background-color: aliceblue !important;
+ }
+ .text-danger {
+  color: red !important;
+ }
+ .txn-list h6 {
+  font-size: 1.1em !important;
+ }
+ .entry-button {
+  text-align: center;
+ }
+ .entry-button div {
+  width: 50% !important;
+  margin: 0% auto;
+ }
+}
+p {
+ line-height: 1rem !important;
+}

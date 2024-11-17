@@ -16,5 +16,5 @@ require __DIR__ . "/SystemFileProcessor.php";
 //system configuration Handler
 require __DIR__ . "/SystemConfigurations.php";
 
-//auto load all modules
-require __DIR__ . "/SysModuleAutoLoader.php";
+//system assets Handlers
+require __DIR__ . "/../assets/AssetsHandler.php";
