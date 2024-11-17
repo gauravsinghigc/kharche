@@ -1,0 +1,192 @@
+@import url("https://fonts.googleapis.com/css2?family=Golos+Text&display=swap");
+
+html,
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+ul,
+ol,
+section,
+div {
+  font-family: "Golos Text", sans-serif !important;
+  border-radius: 0.5rem !important;
+}
+#loader {
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: 9999;
+  text-align: center;
+}
+#loader div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+#loader div img {
+  width: 20vw;
+  max-width: 100%;
+  max-height: 100%;
+}
+.small {
+  font-size: 0.9rem !important;
+}
+
+a:hover {
+  transform: scale(1) !important;
+  text-shadow: 0px 0px 1px grey !important;
+}
+.text-secondary {
+  color: rgb(170, 170, 170) !important;
+}
+.text-right {
+  text-align: right !important;
+}
+
+.header-logo {
+  font-size: 2rem !important;
+}
+.app-bg {
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  min-height: 100%;
+}
+.blank {
+  display: inline-block;
+  height: 100%;
+}
+img {
+  border-radius: 0.5rem !important;
+}
+label {
+  color: grey !important;
+}
+.flex-s-b {
+  display: flex;
+  justify-content: space-between;
+}
+.form-group {
+  margin-bottom: 0.5rem !important;
+}
+.app-heading {
+  font-size: 1.2rem !important;
+  padding: 0.5rem !important;
+}
+.nav-sidebar .nav-link.active,
+.nav-sidebar .nav-link:hover {
+  border-radius: 0.5rem !important;
+}
+.nav-sidebar .nav-link {
+  margin-bottom: 0.1rem !important;
+}
+.sidebar-body .nav-group.show .nav-sidebar {
+  padding-top: 0.1rem !important;
+  padding: 0.3rem !important;
+}
+.main-footer {
+  border-top: 1px solid rgba(226, 229, 236, 0.6);
+  font-size: 0.8125rem;
+  color: #6e7985;
+  position: fixed;
+  width: 100%;
+  left: 0px;
+  z-index: 9999;
+  bottom: 0px;
+  text-align: center;
+  border-radius: 0px !important;
+  padding: 0.2rem;
+}
+.sidebar-footer {
+  bottom: 1.5rem;
+}
+
+.advance-menus {
+  display: none;
+  position: absolute;
+  margin-top: -2rem;
+}
+.advance-menus:hover {
+  display: block;
+}
+.advance-options:hover + .advance-menus {
+  display: block;
+}
+.btn {
+  display: inline-flex !important;
+}
+.btn i {
+  margin-left: 0.2rem !important;
+}
+.pull-right {
+  float: right !important;
+}
+.header-main {
+  justify-content: space-between;
+}
+.sidebar-body {
+  height: 100% !important;
+  padding-bottom: 2rem !important;
+}
+.p-heading {
+  display: inline-flex;
+}
+.btn .fa {
+  padding: 0.2rem 0.2rem !important;
+  margin-top: 0.1rem;
+  margin-right: 0.3rem;
+  font-size: 0.9rem;
+}
+.listing-image {
+  object-fit: fill;
+  width: 100%;
+  height: 100%;
+  max-height: 6rem !important;
+}
+.rounded {
+  border-radius: 10rem !important;
+}
+.bg-white {
+  background-color: white !important;
+}
+.media-img { 
+  width:25% !important;
+}
+.media-body {
+  width: 75% !important;
+}
+.media-img img.user {
+  height:7rem !important;
+  width: 100%;
+  border-radius: 0.5rem !important;
+}
+.profile-bg {
+  width: 100%;
+  text-align: center;
+  padding: 1.5rem;
+  padding-bottom: 2rem;
+  border-bottom-left-radius: 10rem !important;
+  border-bottom-right-radius: 10rem !important;
+}
+.profile-bg img {
+  border-radius: 100% !important;
+  height: auto;
+  width: 100px;
+}
+.name-word {
+  font-size: calc(6vw + 3rem) !important;
+  width: 100%;
+  text-align: center;
+  background-color: aliceblue;
+}

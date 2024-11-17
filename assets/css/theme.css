@@ -1,0 +1,121 @@
+:root {
+  --white-color: white;
+  --primary-color: #764cc1;
+}
+.app-text {
+  color: var(--primary-color) !important;
+}
+
+#loader {
+  background-color: var(--white-color);
+}
+.app-heading {
+  background-color: var(--primary-color);
+  color: var(--white-color) !important;
+}
+.nav-sidebar .nav-link i {
+  color: var(--primary-color) !important;
+}
+.header-logo::after,
+.sidebar-logo::after {
+  background-color: var(--primary-color);
+}
+
+.nav-sidebar .nav-link.active,
+.nav-sidebar .nav-link:hover {
+  background-color: var(--primary-color) !important;
+  color: var(--white-color) !important;
+}
+.nav-sidebar .nav-link.active i,
+.nav-sidebar .nav-link:hover i {
+  color: var(--white-color) !important;
+}
+.main-footer {
+  background-color: var(--primary-color);
+  color: var(--white-color);
+}
+.profile-item > i {
+  color: var(--primary-color) !important;
+}
+.btn-primary {
+  background-color: var(--primary-color) !important;
+}
+.main-title i {
+  color: var(--primary-color) !important;
+  font-size: 1.2rem !important;
+  display: inline-flex;
+}
+.modal-header {
+  background-color: var(--primary-color) !important;
+  color: var(--white-color) !important;
+  border-bottom-left-radius: 0px !important;
+  border-bottom-right-radius: 0px !important;
+}
+.modal-header button.btn-close {
+  background-color: white !important;
+  opacity: 1;
+}
+.notification-box {
+  position: fixed;
+  right: 1rem;
+  top: 1rem;
+  width: 100%;
+  min-width: 250px;
+  max-width: 350px;
+  z-index: 1 !important;
+  padding: 1rem !important;
+  box-shadow: 0px 0px 10px black;
+  -o-border-radius: 5px;
+  border-radius: 0.5rem !important;
+  background-color: white !important;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+.notification-box h4 {
+  cursor: pointer;
+  padding: 0.37rem !important;
+  margin-top: 0.2rem !important;
+  border-radius: 5px !important;
+  font-size: 1.1rem !important;
+  text-align: left !important;
+}
+
+.notification-box p {
+  padding: 0.2% !important;
+  padding-left: 0% !important;
+  font-size: 0.9rem !important;
+  text-align: left !important;
+}
+
+.notification-box h4 i.fa-times {
+  float: right !important;
+  margin-right: 2% !important;
+}
+.p-heading a i {
+  font-size: 2rem;
+  padding: 0.5rem !important;
+  margin-top: 0.8rem;
+}
+.sidebar-body .nav-sidebar .nav-link {
+  font-size: 1.1rem !important;
+}
+.btn-sign {
+  font-size: 1.2rem !important;
+  padding: 1.6rem !important;
+}
+.flex-s-b {
+  display: flex !important;
+  justify-content: space-between !important;
+}
+.app-border {
+  box-shadow: 0px 0px 5px var(--primary-color) !important;
+  border-style: groove;
+  border-width: thin;
+  border-color: var(--primary-color);
+}
+.profile-bg {
+  background-color: var(--primary-color) !important;
+}
